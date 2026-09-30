@@ -1,0 +1,251 @@
+﻿_id,pais_id,pais,provincia_origen_id,provincia_origen,departamento_origen_id,departamento_origen,zona_destino,fecha_comprobante,raza,categoria,cabezas_comercializadas,Unidad de Medida,precio($)_cabeza,precio($)_kg_vivo,cantidad_de_kg
+1,32,Argentina,30,Entre Rios,56,Gualeguaychu,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,7,Kg. Vivo,,20,2190
+2,32,Argentina,30,Entre Rios,56,Gualeguaychu,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,11,Kg. Vivo,,20,3300
+3,32,Argentina,6,Buenos Aires,175,Colon,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,7,Kg. Vivo,,26.9,2426
+4,32,Argentina,6,Buenos Aires,175,Colon,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,7,Kg. Vivo,,26.9,2429
+5,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,10,Kg. Vivo,,29.06,4811
+6,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,34,Kg. Vivo,,32.1,11100
+7,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,2,Kg. Vivo,,28.23,720
+8,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,12,Kg. Vivo,,25.65,4590
+9,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,23,Kg. Vivo,,32.1,7190
+10,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,2,Kg. Vivo,,25.65,760
+11,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,3,Kg. Vivo,,32.1,1030
+12,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,5,Kg. Vivo,,28.23,1910
+13,32,Argentina,6,Buenos Aires,665,Ramallo,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,7,Kg. Vivo,,25.65,2910
+14,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,52,Kg. Vivo,,32.1,18260
+15,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,3,Kg. Vivo,,28.23,1190
+16,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaca Regulares,3,Kg. Vivo,,17.35,740
+17,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,16,Kg. Vivo,,25.65,6190
+18,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares livianos,1,Kg. Vivo,,24.2,460
+19,32,Argentina,30,Entre Rios,8,Colon,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,10,Kg. Vivo,,33.19,3900
+20,32,Argentina,6,Buenos Aires,336,General Lavalle,ZONA 3,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,10,Kg. Vivo,,28,3510
+21,32,Argentina,6,Buenos Aires,336,General Lavalle,ZONA 3,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,6,Kg. Vivo,,28,2106
+22,32,Argentina,6,Buenos Aires,651,Puan,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,10,Kg. Vivo,,28.19,4488
+23,32,Argentina,6,Buenos Aires,651,Puan,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Pesadas 391/430 kilos,9,Kg. Vivo,,28.19,3823
+24,32,Argentina,6,Buenos Aires,588,9 De Julio,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,40,Kg. Vivo,,26.44,15580
+25,32,Argentina,6,Buenos Aires,336,General Lavalle,ZONA 3,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona,35,Kg. Vivo,,15,12110
+26,32,Argentina,6,Buenos Aires,336,General Lavalle,ZONA 2,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,40,Kg. Vivo,,24,17565
+27,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,24,Kg. Vivo,,37.64,13024
+28,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,11,Kg. Vivo,,39.51,5969
+29,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,1,Kg. Vivo,,40.8,543
+30,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Pesados 391/430 kilos,30,Kg. Vivo,,37.15,14710
+31,32,Argentina,6,Buenos Aires,525,Marcos Paz,ZONA 2,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,30,Kg. Vivo,,29,9440
+32,32,Argentina,18,Corrientes,105,Mercedes,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,30,Kg. Vivo,,20,14354
+33,32,Argentina,18,Corrientes,105,Mercedes,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,25,Kg. Vivo,,20,11134
+34,32,Argentina,18,Corrientes,105,Mercedes,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,30,Kg. Vivo,,20,14354
+35,32,Argentina,18,Corrientes,105,Mercedes,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,25,Kg. Vivo,,20,11134
+36,32,Argentina,22,Chaco,7,Almirante Brown,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,32,Kg. Vivo,,17,12160
+37,32,Argentina,22,Chaco,7,Almirante Brown,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,15,Kg. Vivo,,24,4950
+38,32,Argentina,22,Chaco,7,Almirante Brown,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,15,Kg. Vivo,,24,4950
+39,32,Argentina,22,Chaco,7,Almirante Brown,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,32,Kg. Vivo,,17,12160
+40,32,Argentina,82,Santa Fe,14,Caseros,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,22,Kg. Vivo,,29.5,6908
+41,32,Argentina,82,Santa Fe,14,Caseros,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,28,Kg. Vivo,,29.5,8792
+42,32,Argentina,6,Buenos Aires,392,General Villegas,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,40,Kg. Vivo,,30.66,12090
+43,32,Argentina,82,Santa Fe,70,Las Colonias,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Overos Negros ms de 500 kilos,26,Kg. Vivo,,29.23,17780
+44,32,Argentina,82,Santa Fe,70,Las Colonias,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Overos Negros ms de 500 kilos,26,Kg. Vivo,,29.23,17780
+45,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,31,Kg. Vivo,,29,9300
+46,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,18,Kg. Vivo,,28,5472
+47,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares livianos,1,Kg. Vivo,,24,418
+48,32,Argentina,82,Santa Fe,56,Iriondo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillos Especiales y Buenos 461/490 kilos,32,Kg. Vivo,,29.83,15160
+49,32,Argentina,6,Buenos Aires,392,General Villegas,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,13,Kg. Vivo,,30.66,3930
+50,32,Argentina,6,Buenos Aires,392,General Villegas,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,27,Kg. Vivo,,30.66,8160
+51,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,6,Kg. Vivo,,25.52,1833
+52,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Novillitos Regulares,9,Kg. Vivo,,28.52,3967
+53,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Vaquillona Regulares,1,Kg. Vivo,,28.05,362
+54,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Novillitos Regulares,24,Kg. Vivo,,32.58,8076
+55,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Holando Argentino,Bovino Terneros hasta 350 kilos,10,Kg. Vivo,,24,3190
+56,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Brangus,Bovino Novillitos Regulares,8,Kg. Vivo,,24,3010
+57,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Hereford,Bovino Novillos Regulares livianos,2,Kg. Vivo,,24,910
+58,32,Argentina,6,Buenos Aires,21,Alberti,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneros hasta 350 kilos,9,Kg. Vivo,,31.5,2769
+59,32,Argentina,6,Buenos Aires,21,Alberti,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,4,Kg. Vivo,,31.5,1204
+60,32,Argentina,6,Buenos Aires,21,Alberti,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,2,Kg. Vivo,,31.5,702
+61,32,Argentina,6,Buenos Aires,686,Rojas,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneros hasta 350 kilos,5,Kg. Vivo,,29.33,1933
+62,32,Argentina,6,Buenos Aires,686,Rojas,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,5,Kg. Vivo,,29.33,1750
+63,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Hereford,Bovino Novillitos Regulares,6,Kg. Vivo,,32.95,2292
+64,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Hereford,Bovino Vaquillona Regulares,3,Kg. Vivo,,31,1118
+65,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Hereford,Bovino Vaca Buenas,2,Kg. Vivo,,18.07,1011
+66,32,Argentina,82,Santa Fe,112,San Justo,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Novillitos Regulares,50,Kg. Vivo,,24.88,16300
+67,32,Argentina,6,Buenos Aires,595,Olavarria,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,48,Kg. Vivo,,27.3,16435
+68,32,Argentina,6,Buenos Aires,595,Olavarria,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,48,Kg. Vivo,,29.23,15875
+69,32,Argentina,42,La Pampa,56,Chapaleufu,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,3,Kg. Vivo,,29,1080
+70,32,Argentina,42,La Pampa,56,Chapaleufu,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneros hasta 350 kilos,21,Kg. Vivo,,29,6522
+71,32,Argentina,42,La Pampa,56,Chapaleufu,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,19,Kg. Vivo,,29,5711
+72,32,Argentina,42,La Pampa,56,Chapaleufu,ZONA 3,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,9,Kg. Vivo,,29,3237
+73,32,Argentina,6,Buenos Aires,595,Olavarria,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,48,Kg. Vivo,,27.3,16435
+74,32,Argentina,6,Buenos Aires,847,Tres Lomas,ZONA 3,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,7,Kg. Vivo,,26,2100
+75,32,Argentina,6,Buenos Aires,847,Tres Lomas,ZONA 3,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,33,Kg. Vivo,,26,10738
+76,32,Argentina,82,Santa Fe,126,San Martin,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Vaquillona Regulares,1,Kg. Vivo,,25.5,373
+77,32,Argentina,82,Santa Fe,126,San Martin,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Regulares,14,Kg. Vivo,,25.5,4845
+78,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,9,Cabeza,12320,,
+79,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,5,Cabeza,10584,,
+80,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,3,Kg. Vivo,,28.5,930
+81,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,5,Kg. Vivo,,28.5,1510
+82,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,15,Kg. Vivo,,28.5,5640
+83,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,17,Kg. Vivo,,28.5,7580
+84,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,19,Kg. Vivo,,24.2,6564
+85,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,28,Kg. Vivo,,24.17,10726
+86,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,1,Cabeza,12282,,
+87,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Holando Argentino,Bovino Terneros hasta 350 kilos,10,Kg. Vivo,,24,3190
+88,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Brangus,Bovino Novillitos Regulares,8,Kg. Vivo,,24,3010
+89,32,Argentina,6,Buenos Aires,623,Pergamino,ZONA 2,2018-01-01T00:00:00,Hereford,Bovino Novillos Regulares livianos,2,Kg. Vivo,,24,910
+90,32,Argentina,82,Santa Fe,133,Vera,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,13,Kg. Vivo,,29.81,4199
+91,32,Argentina,82,Santa Fe,133,Vera,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,20,Kg. Vivo,,33.39,6120
+92,32,Argentina,82,Santa Fe,133,Vera,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,30,Kg. Vivo,,33.39,9180
+93,32,Argentina,82,Santa Fe,133,Vera,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,12,Kg. Vivo,,31.93,3840
+94,32,Argentina,82,Santa Fe,133,Vera,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,16,Kg. Vivo,,31.93,5120
+95,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,8,Cabeza,12856.25,,
+96,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,1,Cabeza,12375,,
+97,32,Argentina,30,Entre Rios,113,Villaguay,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,22,Cabeza,9718.77,,
+98,32,Argentina,30,Entre Rios,113,Villaguay,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,20,Cabeza,6474.67,,
+99,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,9,Cabeza,12320,,
+100,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,5,Cabeza,10584,,
+101,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,3,Kg. Vivo,,28.5,930
+102,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,5,Kg. Vivo,,28.5,1510
+103,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,15,Kg. Vivo,,28.5,5640
+104,32,Argentina,30,Entre Rios,49,Gualeguay,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,17,Kg. Vivo,,28.5,7580
+105,32,Argentina,74,San Luis,35,General Pedernera,ZONA 8,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Pesados 391/430 kilos,30,Kg. Vivo,,27,11997
+106,32,Argentina,30,Entre Rios,88,San Salvador,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,1,Cabeza,12282,,
+107,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,19,Kg. Vivo,,24.2,6564
+108,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,28,Kg. Vivo,,24.17,10726
+109,32,Argentina,22,Chaco,91,Maipu,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,3,Kg. Vivo,,24,923
+110,32,Argentina,22,Chaco,91,Maipu,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,5,Kg. Vivo,,24,1538
+111,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,4,Kg. Vivo,,33.54,1420
+112,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,21,Kg. Vivo,,36.7,6500
+113,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,27,Kg. Vivo,,36,8100
+114,32,Argentina,6,Buenos Aires,351,General Pinto,ZONA 3,2018-01-01T00:00:00,Brangus,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,3,Kg. Vivo,,28.3,1072
+115,32,Argentina,6,Buenos Aires,351,General Pinto,ZONA 3,2018-01-01T00:00:00,Brangus,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,1,Kg. Vivo,,28.2,357
+116,32,Argentina,6,Buenos Aires,189,Coronel Dorrego,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Vaca,57,Kg. Vivo,,29.84,27727
+117,32,Argentina,6,Buenos Aires,105,Bolivar,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,47,Kg. Vivo,,27.15,15548
+118,32,Argentina,6,Buenos Aires,70,Baradero,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,34,Kg. Vivo,,29.5,10064
+119,32,Argentina,6,Buenos Aires,70,Baradero,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,1,Kg. Vivo,,29.5,331
+120,32,Argentina,6,Buenos Aires,70,Baradero,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Vaquillona Regulares,5,Kg. Vivo,,29.5,1685
+121,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,34,Kg. Vivo,,35.1,10540
+122,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,4,Kg. Vivo,,34.1,1440
+123,32,Argentina,6,Buenos Aires,714,Salto,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,12,Kg. Vivo,,34.1,4340
+124,32,Argentina,6,Buenos Aires,112,Bragado,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,14,Kg. Vivo,,26,4234
+125,32,Argentina,6,Buenos Aires,112,Bragado,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,28,Kg. Vivo,,26,10170
+126,32,Argentina,6,Buenos Aires,112,Bragado,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares livianos,3,Kg. Vivo,,26,1320
+127,32,Argentina,6,Buenos Aires,7,Adolfo Alsina,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,39,Kg. Vivo,,33.97,18069
+128,32,Argentina,6,Buenos Aires,693,Roque Perez,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,22,Kg. Vivo,,26.5,6670
+129,32,Argentina,6,Buenos Aires,693,Roque Perez,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,22,Kg. Vivo,,26.5,8070
+130,32,Argentina,6,Buenos Aires,693,Roque Perez,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares livianos,4,Kg. Vivo,,26.5,1850
+131,32,Argentina,6,Buenos Aires,7,Adolfo Alsina,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Pesados 391/430 kilos,48,Kg. Vivo,,34.34,20216
+132,32,Argentina,6,Buenos Aires,7,Adolfo Alsina,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,39,Kg. Vivo,,33.97,18069
+133,32,Argentina,6,Buenos Aires,588,9 De Julio,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,27,Kg. Vivo,,29,8100
+134,32,Argentina,6,Buenos Aires,588,9 De Julio,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,1,Kg. Vivo,,29,356
+135,32,Argentina,42,La Pampa,70,Guatrache,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,37,Kg. Vivo,,31.75,17731
+136,32,Argentina,42,La Pampa,70,Guatrache,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,37,Kg. Vivo,,31.75,17731
+137,32,Argentina,6,Buenos Aires,7,Adolfo Alsina,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Pesados 391/430 kilos,48,Kg. Vivo,,34.34,20216
+138,32,Argentina,14,Cordoba,49,Ischilin,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneros hasta 350 kilos,12,Cabeza,10884.03,,
+139,32,Argentina,14,Cordoba,49,Ischilin,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,25,Cabeza,10884.03,,
+140,32,Argentina,14,Cordoba,7,Calamuchita,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,5,Kg. Vivo,,32,1550
+141,32,Argentina,14,Cordoba,7,Calamuchita,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,16,Kg. Vivo,,32,4705
+142,32,Argentina,14,Cordoba,7,Calamuchita,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Regulares livianos,10,Kg. Vivo,,32,3529
+143,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,15,Kg. Vivo,,33.74,6747
+144,32,Argentina,14,Cordoba,98,Rio Cuarto,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,6,Cabeza,11088,,
+145,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,44,Kg. Vivo,,32.48,16763
+146,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,40,Kg. Vivo,,33.6,17509
+147,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,40,Kg. Vivo,,33.6,17509
+148,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,44,Kg. Vivo,,32.48,16763
+149,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,15,Kg. Vivo,,33.74,6747
+150,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,21,Kg. Vivo,,34.16,8195
+151,32,Argentina,14,Cordoba,35,General Roca,ZONA 6,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,21,Kg. Vivo,,34.16,8195
+152,32,Argentina,14,Cordoba,112,Rio Seco,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,50,Cabeza,8735,,
+153,32,Argentina,14,Cordoba,35,General Roca,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,38,Kg. Vivo,,35,12530
+154,32,Argentina,14,Cordoba,35,General Roca,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,38,Kg. Vivo,,35.6,13000
+155,32,Argentina,14,Cordoba,35,General Roca,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,44,Kg. Vivo,,30,18180
+156,32,Argentina,14,Cordoba,35,General Roca,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,44,Kg. Vivo,,30,18180
+157,32,Argentina,14,Cordoba,35,General Roca,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,38,Kg. Vivo,,35.6,13000
+158,32,Argentina,14,Cordoba,98,Rio Cuarto,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,16,Kg. Vivo,,27.5,4835
+159,32,Argentina,14,Cordoba,98,Rio Cuarto,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneros hasta 350 kilos,36,Kg. Vivo,,27.5,10870
+160,32,Argentina,14,Cordoba,35,General Roca,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,38,Kg. Vivo,,35,12530
+161,32,Argentina,90,Tucuman,56,Leales,ZONA 10,2018-01-01T00:00:00,Braford,Bovino Novillitos Regulares,13,Kg. Vivo,,28,4563
+162,32,Argentina,90,Tucuman,56,Leales,ZONA 10,2018-01-01T00:00:00,Braford,Bovino Vaquillona Regulares,2,Kg. Vivo,,27,702
+163,32,Argentina,90,Tucuman,56,Leales,ZONA 10,2018-01-01T00:00:00,Braford,Bovino Vaca Regulares,17,Kg. Vivo,,16,6545
+164,32,Argentina,90,Tucuman,56,Leales,ZONA 10,2018-01-01T00:00:00,Braford,Bovino Toros Regulares,2,Kg. Vivo,,16,1200
+165,32,Argentina,14,Cordoba,126,San Alberto,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,53,Kg. Vivo,,33.5,19308
+166,32,Argentina,14,Cordoba,126,San Alberto,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bubalino Toro,5,Kg. Vivo,,25,2905
+167,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Vaquillona Regulares,1,Kg. Vivo,,28,315
+168,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Terneros hasta 350 kilos,1,Kg. Vivo,,28,312
+169,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Regulares,2,Kg. Vivo,,28,624
+170,32,Argentina,14,Cordoba,42,General San Martin,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,3,Kg. Vivo,,29,915
+171,32,Argentina,14,Cordoba,42,General San Martin,ZONA 5,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,5,Kg. Vivo,,29,1533
+172,32,Argentina,14,Cordoba,119,Rio Segundo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Regulares,35,Kg. Vivo,,28,14369
+173,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneros hasta 350 kilos,25,Kg. Vivo,,35.5,7900
+174,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,25,Kg. Vivo,,35.5,7900
+175,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,1,Cabeza,6594,,
+176,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,3,Cabeza,6685,,
+177,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneros hasta 350 kilos,3,Kg. Vivo,,31,982
+178,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneras hasta 350 kilos,3,Kg. Vivo,,31,918
+179,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneros hasta 350 kilos,30,Kg. Vivo,,32,9100
+180,32,Argentina,14,Cordoba,105,Rio Primero,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneros hasta 350 kilos,9,Kg. Vivo,,32,2727
+181,32,Argentina,14,Cordoba,105,Rio Primero,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneras hasta 350 kilos,10,Kg. Vivo,,32,3030
+182,32,Argentina,14,Cordoba,105,Rio Primero,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Novillitos Regulares,11,Kg. Vivo,,30,3643
+183,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneros hasta 350 kilos,25,Kg. Vivo,,35.25,7650
+184,32,Argentina,14,Cordoba,21,Colon,ZONA 5,2018-01-01T00:00:00,Braford,Bovino Terneras hasta 350 kilos,25,Kg. Vivo,,35.25,7500
+185,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,3,Cabeza,6493,,
+186,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Vaca,1,Cabeza,7579,,
+187,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,1,Cabeza,6594,,
+188,32,Argentina,14,Cordoba,84,Presidente Roque Saenz Pea,ZONA 1,2018-01-01T00:00:00,Otra 99,Bovino Novillos Especiales y Buenos 431/460 kilos,50,Kg. Vivo,,37.11,21852
+189,32,Argentina,14,Cordoba,140,San Justo,ZONA 5,2018-01-01T00:00:00,Holando Argentino,Bubalino Vaca,2,Cabeza,7591,,
+190,32,Argentina,14,Cordoba,161,Tercero Arriba,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,4,Kg. Vivo,,30,1240
+191,32,Argentina,14,Cordoba,161,Tercero Arriba,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,4,Kg. Vivo,,30,1300
+192,32,Argentina,22,Chaco,14,Bermejo,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,20,Cabeza,5300,,
+193,32,Argentina,22,Chaco,14,Bermejo,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Novillos Regulares livianos,7,Cabeza,6000,,
+194,32,Argentina,22,Chaco,14,Bermejo,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,20,Cabeza,5300,,
+195,32,Argentina,22,Chaco,14,Bermejo,ZONA 9,2018-01-01T00:00:00,Otra 99,Bovino Vaca Regulares,5,Cabeza,4000,,
+196,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos ms 520 kilos,15,Kg. Vivo,,27.89,8588
+197,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos ms 520 kilos,15,Kg. Vivo,,27.89,8588
+198,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Pesadas 391/430 kilos,34,Kg. Vivo,,29.02,14212
+199,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,3,Kg. Vivo,,29.46,1330
+200,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,9,Kg. Vivo,,27.87,4260
+201,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,10,Kg. Vivo,,29.06,4811
+202,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 461/490 kilos,9,Kg. Vivo,,27.87,4260
+203,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,3,Kg. Vivo,,29.46,1330
+204,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Pesadas 391/430 kilos,34,Kg. Vivo,,29.02,14212
+205,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,1,Cabeza,7150,,
+206,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaca Conserva Inferior,4,Cabeza,4100,,
+207,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,6,Cabeza,5950,,
+208,32,Argentina,30,Entre Rios,84,Parana,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Regulares livianos,7,Cabeza,7500,,
+209,32,Argentina,14,Cordoba,98,Rio Cuarto,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,33,Kg. Vivo,,31,12080
+210,32,Argentina,6,Buenos Aires,196,Coronel Pringles,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,25,Kg. Vivo,,23.27,9459
+211,32,Argentina,6,Buenos Aires,196,Coronel Pringles,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,23,Kg. Vivo,,23.27,8921
+212,32,Argentina,6,Buenos Aires,49,Azul,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaca Conserva Buena,2,Kg. Vivo,,15,836
+213,32,Argentina,6,Buenos Aires,49,Azul,ZONA 2,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares livianos,30,Kg. Vivo,,25,13160
+214,32,Argentina,6,Buenos Aires,700,Saavedra,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaca Regulares,24,Kg. Vivo,,14,10701
+215,32,Argentina,6,Buenos Aires,700,Saavedra,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Regulares pesados,4,Kg. Vivo,,20,1644
+216,32,Argentina,6,Buenos Aires,462,Leandro N Alem,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Especiales y Buenos 431/460 kilos,37,Kg. Vivo,,33.53,16780
+217,32,Argentina,6,Buenos Aires,462,Leandro N Alem,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Especiales y Buenos 431/460 kilos,37,Kg. Vivo,,33.53,16780
+218,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Vaca Regulares,1,Kg. Carne,,34.9,249
+219,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,1,Kg. Carne,,49.75,192
+220,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,2,Kg. Carne,,49.75,404
+221,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Vaquillona Regulares,2,Kg. Carne,,49.75,409
+222,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Regulares pesados,1,Kg. Carne,,44.2,228
+223,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,1,Kg. Carne,,49.75,219
+224,32,Argentina,82,Santa Fe,49,General Obligado,ZONA 5,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,8,Kg. Carne,,49.75,1361
+225,32,Argentina,6,Buenos Aires,462,Leandro N Alem,ZONA 3,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Especiales y Buenos 431/460 kilos,38,Kg. Vivo,,30.88,16880
+226,32,Argentina,6,Buenos Aires,462,Leandro N Alem,ZONA 3,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillos Especiales y Buenos 431/460 kilos,38,Kg. Vivo,,30.88,16880
+227,32,Argentina,6,Buenos Aires,602,Patagones,ZONA 7,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,42,Kg. Vivo,,36.5,15930
+228,32,Argentina,6,Buenos Aires,707,Saladillo,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Novillitos Regulares,14,Kg. Vivo,,28,4840
+229,32,Argentina,6,Buenos Aires,707,Saladillo,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneras hasta 350 kilos,24,Kg. Vivo,,28,7230
+230,32,Argentina,6,Buenos Aires,707,Saladillo,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Terneros hasta 350 kilos,6,Kg. Vivo,,28,1830
+231,32,Argentina,6,Buenos Aires,707,Saladillo,ZONA 1,2018-01-01T00:00:00,Bovino Criollo,Bovino Vaquillona Regulares,6,Kg. Vivo,,28,2050
+232,32,Argentina,6,Buenos Aires,686,Rojas,ZONA 1,2018-01-01T00:00:00,Holando Argentino,Bovino Terneras hasta 350 kilos,65,Kg. Vivo,,33.53,19870
+233,32,Argentina,6,Buenos Aires,686,Rojas,ZONA 1,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Regulares,5,Kg. Vivo,,33.53,1920
+234,32,Argentina,6,Buenos Aires,294,General Arenales,ZONA 1,2018-01-01T00:00:00,Holando Argentino,Bovino Novillitos Regulares,1,Kg. Vivo,,27.15,370
+235,32,Argentina,6,Buenos Aires,196,Coronel Pringles,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Regulares,23,Kg. Vivo,,23.09,8234
+236,32,Argentina,6,Buenos Aires,196,Coronel Pringles,ZONA 1,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Regulares,25,Kg. Vivo,,23.09,8996
+237,32,Argentina,30,Entre Rios,56,Gualeguaychu,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillos Regulares livianos,2,Cabeza,12000,,
+238,32,Argentina,30,Entre Rios,56,Gualeguaychu,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Novillitos Regulares,5,Cabeza,11602.5,,
+239,32,Argentina,6,Buenos Aires,602,Patagones,ZONA 7,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillitos Especiales y Buenos Medianos 351/390 kilos,42,Kg. Vivo,,36.5,15930
+240,32,Argentina,86,Santiago Del Estero,154,Rivadavia,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,4,Kg. Vivo,,23,1455
+241,32,Argentina,86,Santiago Del Estero,154,Rivadavia,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Vaquillona Regulares,4,Kg. Vivo,,23,1567
+242,32,Argentina,6,Buenos Aires,63,Balcarce,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Terneras hasta 350 kilos,50,Kg. Vivo,,27,17373
+243,32,Argentina,6,Buenos Aires,63,Balcarce,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,22,Kg. Vivo,,27,7946
+244,32,Argentina,6,Buenos Aires,63,Balcarce,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Medianas 351/390 kilos,22,Kg. Vivo,,27,7938
+245,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,38,Kg. Vivo,,34.55,16840
+246,32,Argentina,6,Buenos Aires,651,Puan,ZONA 6,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,38,Kg. Vivo,,34.55,16840
+247,32,Argentina,82,Santa Fe,112,San Justo,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,50,Kg. Vivo,,23.21,17380
+248,32,Argentina,82,Santa Fe,112,San Justo,ZONA 5,2018-01-01T00:00:00,Otra 99,Bovino Terneras hasta 350 kilos,50,Kg. Vivo,,24.39,16800
+249,32,Argentina,6,Buenos Aires,651,Puan,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Vaquillona Especiales y Buenas Pesadas 391/430 kilos,9,Kg. Vivo,,28.19,3823
+250,32,Argentina,6,Buenos Aires,651,Puan,ZONA 4,2018-01-01T00:00:00,Aberdeen Angus,Bovino Novillos Especiales y Buenos 431/460 kilos,10,Kg. Vivo,,28.19,4488
