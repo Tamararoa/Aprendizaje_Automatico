@@ -1,1 +1,166 @@
+# Predicción del Consumo de Agua Potable en Ushuaia
+
+**Proyecto de Aprendizaje Automático – Entrega 2**  
+**Alumna:** Tamara Roa  
+**Carrera:** Tecnicatura en Ciencia de Datos e Inteligencia Artificial  
+**Institución:** Centro Politécnico Superior Malvinas Argentinas  
+**Asignatura:** Aprendizaje Automático  
+**Período de datos:** enero de 2025 a septiembre de 2026
+
+## 1. Descripción del proyecto
+
+El objetivo de este proyecto es preparar un conjunto de datos para desarrollar, en una etapa posterior, un modelo de aprendizaje automático que permita analizar y predecir el consumo de agua potable en la ciudad de Ushuaia, Tierra del Fuego.
+
+Para ello se integran datos meteorológicos diarios con registros operativos de consumo de agua. La finalidad es explorar la posible relación entre las condiciones climáticas —temperatura, precipitaciones y eventos de congelamiento— y la demanda de agua.
+
+## 2. Origen de los datos
+
+El proyecto utiliza dos fuentes:
+
+- **Datos meteorológicos:** registros de la estación meteorológica de Ushuaia, correspondientes al Servicio Meteorológico Nacional (SMN).
+- **Datos de consumo:** registros de lecturas de medidores obtenidos de la plataforma de telemedición Temetra, utilizada por la Dirección Provincial de Obras y Servicios Sanitarios (DPOSS) de Tierra del Fuego.
+
+Los datos meteorológicos cubren el período comprendido entre el 1 de enero de 2025 y septiembre de 2026. Los registros de consumo incluyen períodos de lectura desde el 1 de enero de 2025 hasta el 7 de septiembre de 2026.
+
+> **Nota sobre el acceso y uso de los datos:** los registros de Temetra/DPOSS son datos operativos y no deben presentarse como datos de dominio público. Su incorporación al repositorio debe realizarse únicamente si se cuenta con autorización para compartirlos. Antes de publicar el repositorio, revisar y anonimizar identificadores de cuentas, nombres, números de medidor, coordenadas y cualquier otro dato que pueda identificar usuarios o ubicaciones particulares. Si no existe autorización de publicación, mantener esos archivos fuera del repositorio y documentar cómo obtenerlos de forma autorizada.
+
+## 3. Descripción de los datasets de origen
+
+### 3.1. Dataset meteorológico
+
+Archivo utilizado en el notebook: `smn_ushuaia_temperatura_precipitacion_2025_2026.csv`
+
+- **Registros:** 638 observaciones diarias.
+- **Columnas:** 6.
+- **Valores nulos:** el informe de la entrega registra que no se detectaron valores nulos.
+
+| Columna | Tipo / transformación | Descripción |
+|---|---|---|
+| `fecha` | `object` → `datetime64` | Fecha del registro diario. |
+| `temp_media_c` | `float64` | Temperatura media diaria en °C. |
+| `temp_min_c` | `float64` | Temperatura mínima diaria en °C. |
+| `temp_max_c` | `float64` | Temperatura máxima diaria en °C. |
+| `precipitacion_mm` | `float64` | Precipitación acumulada diaria en mm. |
+| `evento_congelamiento` | `int64` | Indicador binario (0/1) de evento de congelamiento. |
+
+### 3.2. Dataset de consumo de red
+
+Archivo de origen consignado en el informe: `temetra-network-consumption.csv`
+
+- **Registros:** 423 lecturas de medidores/cuentas.
+- **Columnas:** 29 en el archivo de origen.
+- Contiene identificadores y referencias del suministro, información del medidor, ruta y distrito de lectura, fechas e índices de lectura, consumo y caudal.
+
+Entre los campos utilizados se encuentran:
+
+| Columna | Tipo / transformación | Descripción |
+|---|---|---|
+| `ACCOUNTREF` | `object` | Identificador de cuenta. |
+| `NAME` | `object` | Titular o referencia del suministro. |
+| `METERSERIAL` | `object` | Número de serie del medidor. |
+| `ROUTE` | `object` | Ruta o zona de lectura. |
+| `DMA` | categórica | Distrito o área de medición. |
+| `FROMREADDATE` | `object` → `datetime64` | Inicio del período de lectura. |
+| `TOREADDATE` | `object` → `datetime64` | Fin del período de lectura. |
+| `FROMREADINDEX` | numérico | Lectura inicial del contador. |
+| `TOREADINDEX` | numérico | Lectura final del contador. |
+| `CONSUMPTION` | `object` → `float64` | Consumo registrado en m³. |
+| `FLOWRATE-M3` | `object` → `float64` | Caudal/tasa de flujo informado por el sistema. |
+
+El notebook también calcula variables climáticas asociadas al intervalo de lectura: temperatura media del período, precipitación total y cantidad de días con congelamiento.
+
+## 4. Herramientas y bibliotecas
+
+El análisis se desarrolla en Python mediante un Jupyter Notebook. Se utilizan las siguientes bibliotecas:
+
+- `pandas`: carga, manipulación y limpieza de datos.
+- `numpy`: operaciones numéricas e ingeniería de características.
+- `matplotlib` y `seaborn`: visualización y análisis exploratorio.
+- `scikit-learn`: preparación de variables, escalado y división de los datos para el futuro modelado.
+
+## 5. Procedimiento realizado
+
+El notebook `Dposs_caudal.ipynb` documenta las siguientes etapas:
+
+1. **Carga e inspección:** lectura de los archivos CSV con `pandas` y revisión de dimensiones, primeras filas, tipos de datos, valores nulos y estadísticas descriptivas.
+2. **Limpieza y conversión:** conversión de valores decimales con coma a formato numérico y transformación de las fechas a `datetime`.
+3. **Análisis exploratorio:** revisión de estadísticas descriptivas, distribuciones, valores atípicos y evolución temporal de temperatura y precipitaciones.
+4. **Integración de fuentes:** asociación de las variables meteorológicas con los períodos de lectura de los medidores.
+5. **Prorrateo del consumo:** distribución del consumo acumulado de cada intervalo entre los días que lo componen y agregación de los consumos diarios para obtener una demanda total diaria de la red.
+6. **Ingeniería de características:** creación de variables temporales, codificación cíclica de mes y día de semana, rezagos (*lags*) de variables meteorológicas y ventanas móviles (*rolling windows*).
+7. **Preparación para modelado:** definición de la variable objetivo, selección de características, transformación logarítmica del consumo y escalado robusto.
+
+### Dataset diario integrado
+
+Luego de integrar el consumo diario prorrateado con los datos meteorológicos y generar las variables temporales, el notebook informa una matriz de **608 filas y 29 columnas**, antes de agregar la variable objetivo transformada.
+
+La variable objetivo definida para la etapa de modelado es `target_log_consumo`, calculada a partir de `consumo_total_m3` mediante `numpy.log1p`.
+
+Las variables predictoras incluyen:
+
+- Temperaturas media, mínima y máxima.
+- Precipitaciones y evento de congelamiento.
+- Mes, día de la semana e indicador de fin de semana.
+- Codificaciones cíclicas de mes y día de semana.
+- Rezagos de temperatura y precipitación.
+- Promedios móviles de temperatura y acumulación móvil de precipitaciones.
+
+## 6. División de entrenamiento y prueba
+
+Para respetar el orden temporal y evitar mezclar observaciones futuras con pasadas, el notebook implementa una división cronológica del 80 % para entrenamiento y 20 % para evaluación.
+
+Según la salida registrada en el notebook:
+
+| Conjunto | Observaciones | Período |
+|---|---:|---|
+| Entrenamiento | 486 días | 2025-01-08 a 2026-05-08 |
+| Prueba / evaluación | 122 días | 2026-05-09 a 2026-09-07 |
+
+El escalador `RobustScaler` se ajusta únicamente con los datos de entrenamiento y luego se aplica al conjunto de prueba.
+
+**Alcance de esta entrega:** esta etapa se concentra en la carga, exploración, transformación e integración de los datos y en su preparación para el modelado. No se presentan todavía resultados de entrenamiento ni métricas de desempeño de un modelo predictivo.
+
+## 7. Estructura sugerida del repositorio
+
+```text
+proyecto-consumo-agua-ushuaia/
+├── README.md
+├── Dposs_caudal.ipynb
+├── data/
+│   ├── smn_ushuaia_temperatura_precipitacion_2025_2026.csv
+│   └── temetra-network-consumption.csv   # Solo si existe autorización para compartirlo
+└── informe/
+    └── Entrega2_RoaTamara.pdf
+```
+
+Los nombres de los archivos del repositorio deben coincidir exactamente con los nombres utilizados en las rutas de lectura del notebook. En la versión actual del notebook aparece `temetra-network-consumption .csv` (con un espacio antes de `.csv`); se debe corregir esa ruta o renombrar el archivo para que coincidan.
+
+## 8. Cómo ejecutar el notebook
+
+1. Clonar o descargar el repositorio.
+2. Instalar Python y Jupyter Notebook/JupyterLab.
+3. Instalar las bibliotecas necesarias:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
+
+4. Colocar los archivos CSV en la ubicación esperada por el notebook o actualizar las rutas de lectura.
+5. Abrir y ejecutar `Dposs_caudal.ipynb` desde el principio y en orden.
+
+## 9. Consideraciones y verificaciones pendientes
+
+Antes de considerar reproducible la entrega, revisar los siguientes puntos en el notebook:
+
+- Confirmar que el nombre y la ruta del CSV de Temetra coincidan exactamente con el archivo disponible.
+- Resolver la diferencia entre el preprocesamiento preliminar y el flujo final: una sección utiliza `train_test_split` aleatorio, mientras que la preparación final realiza una división cronológica. Para el análisis temporal, documentar y utilizar como partición definitiva la cronológica.
+- Verificar que la imputación de valores nulos no oculte registros sin fechas o períodos de lectura válidos. El prorrateo diario filtra esos casos.
+- Revisar que los períodos de lectura y el rango meteorológico estén alineados. El consumo diario prorrateado puede incluir fechas anteriores al inicio del dataset meteorológico; la integración mediante `inner merge` conserva únicamente las fechas coincidentes.
+- Comprobar las salidas ejecutando el notebook completo en un entorno limpio.
+
+## 10. Estado del proyecto
+
+**Entrega 2:** descripción de las fuentes, carga, exploración, limpieza, integración y preparación inicial de los datos para el futuro modelo de aprendizaje automático.
+
+**Proyecto:** Predicción del Consumo de Agua Potable en la Ciudad de Ushuaia.
 
